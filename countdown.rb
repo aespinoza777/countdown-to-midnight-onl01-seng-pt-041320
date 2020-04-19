@@ -6,3 +6,6 @@ def countdown(int)
   puts "#{{int} SECONDS(S)!}"
   int -=1
 end
+end
+
+countdown(10)

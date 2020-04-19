@@ -6,6 +6,10 @@ def countdown(int)
   puts "#{{int} SECONDS(S)!}"
   int -=1
 end
+"Happy New Year!"
 end
 
-countdown(10)
+def countdown_with_sleep(int)
+  while int > 0
+
+countdown_with_sleep(10)
